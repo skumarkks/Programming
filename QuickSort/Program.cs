@@ -2,7 +2,7 @@
 
 namespace QuickSort
 {
-    class Program
+    /*class Program
     {
         public int Partition(int[] nums, int low, int high)
         {
@@ -59,7 +59,8 @@ namespace QuickSort
         static void Main(string[] args)
         {
             var prg = new Program();
-            var nums = new int[] { 11, 13, 7, 12 };
+            //var nums = new int[] { 11, 13, 7, 12 };
+            var nums = new int[] { 1, -1 };
             prg.QuickSort(nums, 0, nums.Length);
             foreach (var item in nums)
             {
@@ -68,5 +69,5 @@ namespace QuickSort
             
             Console.WriteLine("Hello World!");
         }
-    }
+    }*/
 }

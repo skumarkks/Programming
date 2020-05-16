@@ -88,7 +88,7 @@ namespace BinarySearchTree
             else if (p.data == k) return p;
             else if (p.data < k)
             {
-                 return SearchBTree(p.rchild, k);
+                return SearchBTree(p.rchild, k);
             }
             else
                 return SearchBTree(p.lchild, k);
@@ -96,11 +96,11 @@ namespace BinarySearchTree
 
         public Node BTSearchIterative(Node p, int k)
         {
-            while(p != null)
+            while (p != null)
             {
                 Node temp = p;
                 if (p.data == k) return p;
-                else if(p.data < k)
+                else if (p.data < k)
                 {
                     if (p.rchild != null)
                         p = p.rchild;
@@ -118,9 +118,9 @@ namespace BinarySearchTree
             return null;
         }
 
-        public Node BTInsert(Node p , int value)
+        public Node BTInsert(Node p, int value)
         {
-            if(p == null)
+            if (p == null)
             {
                 Node t = new Node();
                 t.data = value;
@@ -129,13 +129,15 @@ namespace BinarySearchTree
                 return t;
             }
 
-            if(p.data < value )
+            if (p.data < value)
             {
-                p.rchild = BTInsert(p.rchild, value);
+                Node temp = BTInsert(p.rchild, value);
+                p.rchild = temp;
             }
             else
             {
-                p.lchild = BTInsert(p.lchild, value);
+                Node temp = BTInsert(p.lchild, value);
+                p.lchild = temp;
             }
             return p;
         }
@@ -144,7 +146,7 @@ namespace BinarySearchTree
         {
             Node p = root;
             Node prev = null;
-            while(p != null)
+            while (p != null)
             {
                 prev = p;
                 if (p.data < value)
@@ -155,7 +157,7 @@ namespace BinarySearchTree
                     p = p.lchild;
             }
 
-            if(p == null)
+            if (p == null)
             {
                 Node newNode = new Node();
                 newNode.data = value;
@@ -186,17 +188,17 @@ namespace BinarySearchTree
             var temp = root;
             int i = 1;
 
-            while(i < nums.Length)
+            while (i < nums.Length)
             {
                 var temp1 = new Node();
                 temp1.data = nums[i];
                 temp1.rchild = null;
                 temp1.lchild = null;
 
-                while(temp != null)
+                while (temp != null)
                 {
                     prev = temp;
-                    if(temp.data < nums[i])
+                    if (temp.data < nums[i])
                     {
                         temp = temp.rchild;
                     }
@@ -220,6 +222,88 @@ namespace BinarySearchTree
             return root;
         }
 
+        public int FindClosestValueInBST(Node p, int target)
+        {
+            return FindClosestValueInBST(p, target, Int32.MaxValue);
+        }
+
+        public int FindClosestValueInBST(Node p, int target, int closest)
+        {
+            if(Math.Abs(target-closest) > Math.Abs(target-p.data))
+            {
+                closest = p.data;
+            }
+
+            if(p != null && p.lchild != null && target < p.data)
+            {
+                return FindClosestValueInBST(p.lchild, target, closest);
+            }
+            else if (p!= null && p.rchild != null && target > p.data)
+            {
+                return FindClosestValueInBST(p.rchild, target, closest);
+
+            }
+            else
+            {
+                return closest;
+            }
+        }
+
+        public void FindAverageByLevel(Node p, List<double> result)
+        {
+            var stack1 = new Stack<Node>();
+            var stack2 = new Stack<Node>();
+
+            Node temp = p;
+
+            stack1.Push(p);
+            while (stack1.Count != 0 || stack2.Count != 0)
+            {
+                double sum = 0;
+                int count = 0;
+                double avg = 0;
+
+                while (stack1.Count != 0)
+                {
+                    temp = stack1.Pop();
+                    sum += temp.data;
+                    count++;
+
+                    if (temp.lchild != null)
+                        stack2.Push(temp.lchild);
+                    if (temp.rchild != null)
+                        stack2.Push(temp.rchild);
+                }
+
+                if (sum != 0)
+                {
+                    avg = sum / count;
+                    result.Add(avg);
+                }
+
+                sum = 0;
+                count = 0;
+
+                while (stack2.Count != 0)
+                {
+                    temp = stack2.Pop();
+                    sum += temp.data;
+                    count++;
+
+                    if (temp.lchild != null)
+                        stack1.Push(temp.lchild);
+                    if (temp.rchild != null)
+                        stack1.Push(temp.rchild);
+                }
+                if (sum != 0)
+                {
+                    avg = sum / count;
+                    result.Add(avg);
+                }
+
+            }
+        }
+
     }
     class Program
     {
@@ -228,8 +312,17 @@ namespace BinarySearchTree
             var tree = new BSearch();
             Node p = tree.CreateTree();
 
+            Console.WriteLine("Average by Level");
+            var result = new List<double>();
+            tree.FindAverageByLevel(p, result);
+            foreach (var item in result)
+            {
+                Console.Write("{0} ", item);
+            }
+
+
             Console.WriteLine("Search item in BT");
-            var temp = tree.SearchBTree(p, 20);
+            var temp = tree.SearchBTree(p, 7);
             Console.WriteLine(temp.data);
             Console.WriteLine();
 

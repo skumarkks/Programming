@@ -4,6 +4,7 @@ namespace MaxSumSubArray
 {
     class Program
     {
+        
         public int FindMinSubArray(int[] nums, int k)
         {
             if (nums.Length == 0)
@@ -59,7 +60,7 @@ namespace MaxSumSubArray
             return max;
         }
 
-        static void Main(string[] args)
+        /*static void Main(string[] args)
         {
             var prg = new Program();
 
@@ -74,6 +75,71 @@ namespace MaxSumSubArray
             int result = prg.FindMinSubArray(nums1, 7);
 
             Console.WriteLine(result);
+        }*/
+    }
+    public class SubArray
+    {
+        public int FindMaxSumSubArray(int[] num, int k)
+        {
+            if (num.Length == 0 || num.Length < k) return -1;
+
+            int start = 0;
+            int end = 0;
+            int sum = 0;
+            int maxSum = Int32.MinValue;
+
+            while( end < num.Length)
+            {
+                sum += num[end];
+
+                if (end - start + 1 == k)
+                {
+                    maxSum = Math.Max(maxSum, sum);
+                    sum -= num[start];
+                    start++;
+                }
+                end++;
+            }
+            return maxSum;
+        }
+
+        static void Main(string[] args)
+        {
+            var test = new SubArray();
+            var num = new int[] { 2, 1, 5, 1 };
+            int expected = 8;
+            int result = test.FindMaxSumSubArray(num, 3);
+            if (result == expected)
+            {
+                Console.WriteLine("Passed: result {0}, expected {1}", result, expected );
+            }
+
+
+            num = new int[] { 2, -1, 5, 1 };
+            expected = 6;
+            result = test.FindMaxSumSubArray(num, 3);
+            if (result == expected)
+            {
+                Console.WriteLine("Passed: result {0}, expected {1}", result, expected );
+            }
+
+            num = new int[] { 2, -1 };
+            expected = -1;
+            result = test.FindMaxSumSubArray(num, 3);
+            if (result == expected)
+            {
+                Console.WriteLine("Passed: result {0}, expected {1}", result, expected );
+            }
+
+            num = new int[] { };
+            expected = -1;
+            result = test.FindMaxSumSubArray(num, 3);
+            if (result == expected)
+            {
+                Console.WriteLine("Passed: result {0}, expected {1}", result, expected );
+            }
+
         }
     }
+
 }

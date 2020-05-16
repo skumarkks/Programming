@@ -5,35 +5,80 @@ namespace NonRepeatingSubString
 {
     class Program
     {
-        /*public int nonrepeatingString(string str)
+		public class NoRepeatSubstring
         {
-            int windowsStart = 0;
-            var charFrequencyMap = new Dictionary<char, int>();
-            int maxRepeatingCharater = 0;
-
-
-            for (int windowsEnd = 0; windowsEnd < str.Length ; windowsEnd++)
+            public static int FindNoRepeatSubstring(string src)
             {
-                
-                if (charFrequencyMap.ContainsKey(str[windowsEnd]))
+                if (src.Length == 0) return 0;
+
+                int startIdx = 0;
+                int maxLength = Int32.MinValue;
+                Dictionary<char, int> charFrequencyMap = new Dictionary<char, int>();
+
+                for (int endIdx = 0; endIdx < src.Length; endIdx++)
                 {
-                    charFrequencyMap[str[windowsEnd]] += 1;
-                    maxRepeatingCharater = Math.Max(maxRepeatingCharater, charFrequencyMap[str[windowsEnd]])
+                    char rightChar = src[endIdx];
+
+                    if (charFrequencyMap.ContainsKey(rightChar))
+                    {
+                        startIdx = Math.Max(startIdx, charFrequencyMap[rightChar] + 1);
+                        charFrequencyMap[rightChar] = endIdx;
+                    }
+                    else
+                    {
+                        charFrequencyMap.Add(rightChar, endIdx);
+                    }
+
+                    
+                    maxLength = Math.Max(maxLength, endIdx - startIdx + 1);
+                }
+
+                return maxLength;
+            }
+
+            public static void Main(string[] args)
+            {
+                string testSrc1 = "aabccaa";
+                int actualResult = 3;
+                int expectedResult = NoRepeatSubstring.FindNoRepeatSubstring(testSrc1);
+                if (actualResult == expectedResult)
+                {
+                    Console.WriteLine("PASS");
                 }
                 else
                 {
-                    charFrequencyMap.Add(str[windowsEnd], 1);
+                    Console.WriteLine("FAIL");
+
+                }
+
+                string testSrc2 = "a";
+                actualResult = 1;
+                expectedResult = NoRepeatSubstring.FindNoRepeatSubstring(testSrc2);
+                if (actualResult == expectedResult)
+                {
+                    Console.WriteLine("PASS");
+                }
+                else
+                {
+                    Console.WriteLine("FAIL");
+
+                }
+
+                string testSrc3 = "aabcacaa";
+                actualResult = 3;
+                expectedResult = NoRepeatSubstring.FindNoRepeatSubstring(testSrc3);
+                if (actualResult == expectedResult)
+                {
+                    Console.WriteLine("PASS");
+                }
+                else
+                {
+                    Console.WriteLine("FAIL");
+
                 }
 
             }
-            
-
-        
-
-        }*/
-        static void Main(string[] args)
-        {
-            Console.WriteLine("Hello World!");
         }
-    }
+
+	}
 }
