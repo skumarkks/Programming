@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Diagnostics;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -8,9 +9,33 @@ namespace MaximumStockProfit
 {
     class Program
     {
-        public static int[] FindMaximumProfit(int[] nums)
+        public static  int FindMaxProfit(int[] prices)
         {
-            if (nums.Length == 0) return null;
+            if (prices.Length == 0) return 0;
+
+
+
+            int minValue = Int32.MaxValue;
+            int maxProfit = 0;
+
+            for (int i = 0; i < prices.Length; i++)
+            {
+                if (prices[i] < minValue) 
+                    minValue = prices[i];
+                
+                if(prices[i]-minValue > maxProfit)
+                {
+                    maxProfit = prices[i] - minValue;
+                }
+
+            }
+
+            return maxProfit;
+        }
+
+        public static int FindMaximumProfit(int[] nums)
+        {
+            if (nums.Length == 0) return 0;
             int maxProfit = Int32.MinValue;
             int[] stocks = new int[2];
 
@@ -32,17 +57,17 @@ namespace MaximumStockProfit
                 }
 
             }
-            return stocks;
+            return stocks[1] - stocks[0];
 
         }
         static void Main(string[] args)
         {
             int[] nums = new int[] { 100, 113, 110, 85, 105, 102, 86, 63, 81, 101, 94, 106, 101, 79, 94, 90, 97 };
-            int[] result = Program.FindMaximumProfit(nums);
-            foreach (var item in result)
-            {
-                Console.WriteLine(item);
-            }
+            int result = Program.FindMaximumProfit(nums);
+            Console.WriteLine(result);
+
+            result = Program.FindMaxProfit(nums);
+            Console.WriteLine(result);
         }
     }
 }
