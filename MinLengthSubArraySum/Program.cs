@@ -5,77 +5,53 @@ namespace MinLengthSubArraySum
 {
     public class SubArrays
     {
-        //Time Complexity O(n)
-        //Space Complexity O(
-        public List<int> SmallestSubArraySum(int[] nums, int k)
+        class Solution
         {
-            int start = 0;
-            int end = 0;
-
-            int sum = 0;
-            int minSize = Int32.MaxValue;
-
-            int startIndex = -1;
-            int endIndex = -1;
-
-            if (nums.Length == 0) return null;
-
-            for (end = 0; end < nums.Length; end++)
+            public static int FindSmallestSubarrayBySum(int[] array, int sum)
             {
-                sum += nums[end];
+                if (array.Length == 0) return 0;
 
-                while(sum >= k)
+                int windowStart = 0;
+                int currentSum = 0;
+                int minLength = Int32.MaxValue;
+
+
+                for (int windowEnd = 0; windowEnd < array.Length; windowEnd++)
                 {
-                    if(sum == k)
+                    currentSum += array[windowEnd];
+
+                    while (windowStart < array.Length && currentSum >= sum)
                     {
-                        int oldMinSize = minSize;
-                        minSize = Math.Min(minSize, end - start + 1);
-                        if(oldMinSize != minSize)
-                        {
-                            startIndex = start;
-                            endIndex = end;
-                        }
-
-                        sum -= nums[start];
-                        start++;
-
+                        minLength = Math.Min(minLength, windowEnd - windowStart + 1);
+                        currentSum -= array[windowStart];
+                        windowStart++;
                     }
-                    else if(sum > k)
-                    {
-                        sum -= nums[start];
-                        start++;
-                    }                                          
                 }
 
-            }
-            var result = new List<int>();
-            if (startIndex != -1 && endIndex != -1)
-            {               
-
-                for (int i = startIndex; i <= endIndex; i++)
-                {
-                    result.Add(nums[i]);
-                }
+                return minLength;
             }
 
-            return result;
 
-        }
-
-        public static void Main(string[] args)
-        {
-            var test = new SubArrays();
-            int[] nums = new int[] { 1, 2, 3, 4, 5, 6, 7, 7 };
-    
-            var result = test.SmallestSubArraySum(nums, 20);
-
-            foreach (var item in result)
+            static void Main(string[] args)
             {
-                Console.Write("{0} ", item);
+                int[] test1 = new int[] { 2, 1, 5, 2, 3, 2 };
+                int sum = 7;
+
+                int actual = Solution.FindSmallestSubarrayBySum(test1, sum);
+                int expected = 2;
+
+                Console.WriteLine(actual == expected ? "Pass" : "Fail");
+
+                int[] test2 = new int[] { 2, 1, 5, 2, 8 };
+                sum = 7;
+
+                actual = Solution.FindSmallestSubarrayBySum(test1, sum);
+                expected = 1;
+
+                Console.WriteLine(actual);
+                Console.WriteLine(actual == expected ? "Pass" : "Fail");
+
             }
-            Console.WriteLine();
-
-
         }
     }
 
