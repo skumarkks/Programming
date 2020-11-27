@@ -22,7 +22,7 @@ namespace AdjacencyList
         }
     }
 
-    public class AdjList
+    public class edgeList
     {
         public AdjNode head;
     }
@@ -30,15 +30,15 @@ namespace AdjacencyList
     public class Graph
     {
         public int vCount;
-        public AdjList[] adjArray;
+        public edgeList[] adjArray;
 
         public Graph(int count)
         {
             vCount = count;
-            adjArray = new AdjList[count];
+            adjArray = new edgeList[count];
             for (int i = 0; i < count; i++)
             {
-                adjArray[i] = new AdjList();
+                adjArray[i] = new edgeList();
                 adjArray[i].head = null;
             }
         }
@@ -55,7 +55,7 @@ namespace AdjacencyList
     {
         static void Main(string[] args)
         {
-            Graph g = new Graph(4);
+            Graph g = new Graph(8);
             g.AddEdge(0, 1, 1);
             g.AddEdge(0, 2, 2);
             g.AddEdge(0, 3, 3);

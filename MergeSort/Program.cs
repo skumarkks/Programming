@@ -2,73 +2,71 @@
 
 public class Program
 {
-    public static int[] MergeSort(int[] array)
+    public static void MergeSort(int[] arr)
     {
-        // Write your code here.
-        if (array.Length == 0) return null;
-        if (array.Length == 1) return array;
-
-        int low = 0;
-        int high = array.Length - 1;
-        int[] temp = new int[array.Length];
-
-        MergeSort(array, temp, low, high);
-        return array;
+        int[] temp = new int[arr.Length];
+        MergeSort(arr, temp, 0, arr.Length - 1);
     }
 
-    public static void MergeSort(int[] array, int[] temp, int low, int high)
+    public static void MergeSort(int[] arr, int[] temp, int low, int high)
     {
         if (low < high)
         {
             int mid = (low + high) / 2;
-            MergeSort(array, temp, low, mid);
-            MergeSort(array, temp, mid + 1, high);
-            Merge(array, temp, low, mid, high);
+            MergeSort(arr, temp, low, mid);
+            MergeSort(arr, temp, mid + 1, high);
+            Merge(arr, temp, low, mid, high);
         }
     }
 
-    public static void Merge(int[] array, int[] temp, int low, int mid, int high)
+    public static void Merge(int[] arr, int[] temp, int low, int mid, int high)
     {
         int firstArrayIdx = low;
-        int secondArrayIdx = mid + 1;
+        int secondArrayIdx = mid+1;
         int k = low;
 
         while (firstArrayIdx <= mid && secondArrayIdx <= high)
         {
-            if (array[firstArrayIdx] <= array[secondArrayIdx])
+            if (arr[firstArrayIdx] <= arr[secondArrayIdx])
             {
-                temp[k++] = array[firstArrayIdx++];
+                temp[k++] = arr[firstArrayIdx];
+                firstArrayIdx++;
             }
-            else if (array[firstArrayIdx] > array[secondArrayIdx])
+            else
             {
-                temp[k++] = array[secondArrayIdx++];
+                temp[k++] = arr[secondArrayIdx];
+                secondArrayIdx++;
             }
         }
-                
+
         while (firstArrayIdx <= mid)
         {
-            temp[k] = array[firstArrayIdx];
-            k++;
+            temp[k++] = arr[firstArrayIdx];
             firstArrayIdx++;
         }
-        
+
         while (secondArrayIdx <= high)
         {
-            temp[k] = array[secondArrayIdx];
-            k++;
+            temp[k++] = arr[secondArrayIdx];
             secondArrayIdx++;
         }
-        
-        for (int i = 0; i < high; i++)
+
+        for (int i = 0; i <= high; i++)
         {
-            array[i] = temp[i];
+            arr[i] = temp[i];
         }
+
     }
 
     public static void Main(string[] args)
     {
-        int[] array = new int[] { 2, 1 };
-        int[] result = Program.MergeSort(array);
+        int[] array = new int[] { 8, 5, 2, 9, 5, 6, 3 };
+        Program.MergeSort(array);
+
+        for (int i = 0; i < array.Length; i++)
+        {
+            Console.WriteLine(array[i]);
+        }
     }
 
 }
