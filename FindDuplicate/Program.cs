@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections.Generic;
 
 namespace FindDuplicate
 {
@@ -6,30 +7,32 @@ namespace FindDuplicate
     {
         public class Duplicate
         {
-            public int FindDuplicate(int[] nums)
+            public List<int> FindDuplicate(int[] nums)
             {
-                if (nums.Length == 0) return -1;
+                if (nums.Length == 0) return null;
 
                 int i = 0;
 
                 while (i < nums.Length)
                 {
-                    if (i != nums[i] && nums[i] < nums.Length)
+                    if (i < nums.Length && nums[i] != nums[nums[i] - 1])
                     {
-                        if (nums[i] == nums[nums[i]])
-                            return nums[i];
-                        else
-                        {
-                            Swap(nums, i, nums[i]);
-                        }
-
+                        Swap(nums, i, nums[i] - 1);
                     }
                     else
                     {
                         i++;
                     }
                 }
-                return -1;
+
+                List<int> duplicate = new List<int>();
+                
+                for (int j = 0; j <= nums.Length-1; j++)
+                {
+                    if (j+1 != nums[j])
+                        duplicate.Add(nums[j]);
+                }
+                return duplicate;
             }
 
             public void Swap(int[] nums,int i,int j)
@@ -43,14 +46,11 @@ namespace FindDuplicate
         static void Main(string[] args)
         {
             var duplicate = new Duplicate();
-            int result = duplicate.FindDuplicate(new int[] { 4, 3, 3, 0, 1 });
-            Console.WriteLine(result);
-            if (result == 4)
-                Console.Write("Passed");
-            else
-                Console.Write("Failed");
-
-            Console.WriteLine("Hello World!");
+            var results = duplicate.FindDuplicate(new int[] { 8, 4, 3, 3, 2, 2, 1 });
+            foreach (var result in results)
+            {
+                Console.WriteLine(result);
+            }
         }
     }
 }

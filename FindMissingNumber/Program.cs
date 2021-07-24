@@ -26,7 +26,7 @@ namespace FindMissingNumber
 
             }
 
-            return nums.Length;
+            return 0;
 
         }
 
@@ -40,7 +40,10 @@ namespace FindMissingNumber
         static void Main(string[] args)
         {
             var result = Program.FindMissingNumber(new int[] { 4, 3, 0, 1 });
-            Console.WriteLine("Hello World!");
+            Console.WriteLine(result);
+
+            result = Program.FindMissingNumber(new int[] { 8,3,5,2,4,6,0,1 });
+            Console.WriteLine(result);
         }
     }
 }
