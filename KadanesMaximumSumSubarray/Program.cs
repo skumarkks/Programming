@@ -15,6 +15,7 @@ namespace KadanesMaximumSumSubarray
             int maxSumSubArray = arr[0];
 
             int[] subArrayIdx = new int[2] { 0, 0 };
+            subArrayIdx[0] = 0;
 
             for (int i = 1; i < arr.Length; i++)
             {
