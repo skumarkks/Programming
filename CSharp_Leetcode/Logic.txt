@@ -1,0 +1,9 @@
+https://www.youtube.com/channel/UCZCFT11CWBi3MHNlGf019nw/videos
+
+Rabin-Karp substring finding algorithm which works O(n-m+1)
+https://www.youtube.com/watch?v=qQ8vS2btsxI
+
+Knuth-Morris-Pratt(KMP) algorithm for finding substring
+https://www.youtube.com/watch?v=V5-7GzOfADQ
+
+https://www.facebook.com/sadhguru/videos/2047670472230098/

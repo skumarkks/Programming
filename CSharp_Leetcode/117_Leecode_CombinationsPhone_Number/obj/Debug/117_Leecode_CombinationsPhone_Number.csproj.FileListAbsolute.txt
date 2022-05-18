@@ -1,0 +1,7 @@
+C:\Users\skuma\OneDrive\Workspace\Leetcode\LeetCode\117_Leecode_CombinationsPhone_Number\bin\Debug\117_Leecode_CombinationsPhone_Number.exe.config
+C:\Users\skuma\OneDrive\Workspace\Leetcode\LeetCode\117_Leecode_CombinationsPhone_Number\bin\Debug\117_Leecode_CombinationsPhone_Number.exe
+C:\Users\skuma\OneDrive\Workspace\Leetcode\LeetCode\117_Leecode_CombinationsPhone_Number\bin\Debug\117_Leecode_CombinationsPhone_Number.pdb
+C:\Users\skuma\OneDrive\Workspace\Leetcode\LeetCode\117_Leecode_CombinationsPhone_Number\obj\Debug\117_Leecode_CombinationsPhone_Number.csprojAssemblyReference.cache
+C:\Users\skuma\OneDrive\Workspace\Leetcode\LeetCode\117_Leecode_CombinationsPhone_Number\obj\Debug\117_Leecode_CombinationsPhone_Number.csproj.CoreCompileInputs.cache
+C:\Users\skuma\OneDrive\Workspace\Leetcode\LeetCode\117_Leecode_CombinationsPhone_Number\obj\Debug\117_Leecode_CombinationsPhone_Number.exe
+C:\Users\skuma\OneDrive\Workspace\Leetcode\LeetCode\117_Leecode_CombinationsPhone_Number\obj\Debug\117_Leecode_CombinationsPhone_Number.pdb

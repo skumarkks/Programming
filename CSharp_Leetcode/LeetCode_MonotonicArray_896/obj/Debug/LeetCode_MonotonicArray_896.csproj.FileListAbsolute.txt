@@ -1,0 +1,14 @@
+C:\Users\SureshKumar\OneDrive\Workspace\Leetcode\LeetCode\LeetCode_MonotonicArray_896\bin\Debug\LeetCode_MonotonicArray_896.exe.config
+C:\Users\SureshKumar\OneDrive\Workspace\Leetcode\LeetCode\LeetCode_MonotonicArray_896\bin\Debug\LeetCode_MonotonicArray_896.exe
+C:\Users\SureshKumar\OneDrive\Workspace\Leetcode\LeetCode\LeetCode_MonotonicArray_896\bin\Debug\LeetCode_MonotonicArray_896.pdb
+C:\Users\SureshKumar\OneDrive\Workspace\Leetcode\LeetCode\LeetCode_MonotonicArray_896\obj\Debug\LeetCode_MonotonicArray_896.csprojAssemblyReference.cache
+C:\Users\SureshKumar\OneDrive\Workspace\Leetcode\LeetCode\LeetCode_MonotonicArray_896\obj\Debug\LeetCode_MonotonicArray_896.csproj.CoreCompileInputs.cache
+C:\Users\SureshKumar\OneDrive\Workspace\Leetcode\LeetCode\LeetCode_MonotonicArray_896\obj\Debug\LeetCode_MonotonicArray_896.exe
+C:\Users\SureshKumar\OneDrive\Workspace\Leetcode\LeetCode\LeetCode_MonotonicArray_896\obj\Debug\LeetCode_MonotonicArray_896.pdb
+C:\Users\skuma\OneDrive\Workspace\Leetcode\LeetCode\LeetCode_MonotonicArray_896\bin\Debug\LeetCode_MonotonicArray_896.exe.config
+C:\Users\skuma\OneDrive\Workspace\Leetcode\LeetCode\LeetCode_MonotonicArray_896\bin\Debug\LeetCode_MonotonicArray_896.exe
+C:\Users\skuma\OneDrive\Workspace\Leetcode\LeetCode\LeetCode_MonotonicArray_896\bin\Debug\LeetCode_MonotonicArray_896.pdb
+C:\Users\skuma\OneDrive\Workspace\Leetcode\LeetCode\LeetCode_MonotonicArray_896\obj\Debug\LeetCode_MonotonicArray_896.csprojAssemblyReference.cache
+C:\Users\skuma\OneDrive\Workspace\Leetcode\LeetCode\LeetCode_MonotonicArray_896\obj\Debug\LeetCode_MonotonicArray_896.csproj.CoreCompileInputs.cache
+C:\Users\skuma\OneDrive\Workspace\Leetcode\LeetCode\LeetCode_MonotonicArray_896\obj\Debug\LeetCode_MonotonicArray_896.exe
+C:\Users\skuma\OneDrive\Workspace\Leetcode\LeetCode\LeetCode_MonotonicArray_896\obj\Debug\LeetCode_MonotonicArray_896.pdb

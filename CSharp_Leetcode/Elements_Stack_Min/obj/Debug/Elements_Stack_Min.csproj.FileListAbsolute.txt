@@ -1,0 +1,12 @@
+C:\Users\SureshKumar\OneDrive\Workspace\Leetcode\LeetCode\Elements_Stack_Min\obj\Debug\Elements_Stack_Min.csproj.CoreCompileInputs.cache
+C:\Users\SureshKumar\OneDrive\Workspace\Leetcode\LeetCode\Elements_Stack_Min\bin\Debug\Elements_Stack_Min.exe.config
+C:\Users\SureshKumar\OneDrive\Workspace\Leetcode\LeetCode\Elements_Stack_Min\bin\Debug\Elements_Stack_Min.exe
+C:\Users\SureshKumar\OneDrive\Workspace\Leetcode\LeetCode\Elements_Stack_Min\bin\Debug\Elements_Stack_Min.pdb
+C:\Users\SureshKumar\OneDrive\Workspace\Leetcode\LeetCode\Elements_Stack_Min\obj\Debug\Elements_Stack_Min.exe
+C:\Users\SureshKumar\OneDrive\Workspace\Leetcode\LeetCode\Elements_Stack_Min\obj\Debug\Elements_Stack_Min.pdb
+C:\Users\skuma\OneDrive\Workspace\Leetcode\LeetCode\Elements_Stack_Min\bin\Debug\Elements_Stack_Min.exe.config
+C:\Users\skuma\OneDrive\Workspace\Leetcode\LeetCode\Elements_Stack_Min\bin\Debug\Elements_Stack_Min.exe
+C:\Users\skuma\OneDrive\Workspace\Leetcode\LeetCode\Elements_Stack_Min\bin\Debug\Elements_Stack_Min.pdb
+C:\Users\skuma\OneDrive\Workspace\Leetcode\LeetCode\Elements_Stack_Min\obj\Debug\Elements_Stack_Min.csproj.CoreCompileInputs.cache
+C:\Users\skuma\OneDrive\Workspace\Leetcode\LeetCode\Elements_Stack_Min\obj\Debug\Elements_Stack_Min.exe
+C:\Users\skuma\OneDrive\Workspace\Leetcode\LeetCode\Elements_Stack_Min\obj\Debug\Elements_Stack_Min.pdb

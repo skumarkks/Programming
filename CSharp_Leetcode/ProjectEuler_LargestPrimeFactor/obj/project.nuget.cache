@@ -1,0 +1,16 @@
+{
+  "version": 2,
+  "dgSpecHash": "d2GHspvxTqq0b/2Pn8OYcdjiaoIV7YXoI7WpABkXAkcqdH/8WaD4Z7clciPVS49+RJWI/xwXPv6vIVpC1ZL/1w==",
+  "success": true,
+  "projectFilePath": "E:\\OneDrive\\Workspace\\Leetcode\\LeetCode\\ProjectEuler_LargestPrimeFactor\\ProjectEuler_LargestPrimeFactor.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\skuma\\.nuget\\packages\\microsoft.netcore.app\\2.1.0\\microsoft.netcore.app.2.1.0.nupkg.sha512",
+    "C:\\Users\\skuma\\.nuget\\packages\\microsoft.netcore.dotnetapphost\\2.1.0\\microsoft.netcore.dotnetapphost.2.1.0.nupkg.sha512",
+    "C:\\Users\\skuma\\.nuget\\packages\\microsoft.netcore.dotnethostpolicy\\2.1.0\\microsoft.netcore.dotnethostpolicy.2.1.0.nupkg.sha512",
+    "C:\\Users\\skuma\\.nuget\\packages\\microsoft.netcore.dotnethostresolver\\2.1.0\\microsoft.netcore.dotnethostresolver.2.1.0.nupkg.sha512",
+    "C:\\Users\\skuma\\.nuget\\packages\\microsoft.netcore.platforms\\2.1.0\\microsoft.netcore.platforms.2.1.0.nupkg.sha512",
+    "C:\\Users\\skuma\\.nuget\\packages\\microsoft.netcore.targets\\2.1.0\\microsoft.netcore.targets.2.1.0.nupkg.sha512",
+    "C:\\Users\\skuma\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}

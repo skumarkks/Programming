@@ -1,0 +1,11 @@
+C:\Users\skuma\OneDrive\Workspace\Leetcode\LeetCode\ProjectEuler_Multiples\bin\Debug\netcoreapp2.1\ProjectEuler_Multiples.deps.json
+C:\Users\skuma\OneDrive\Workspace\Leetcode\LeetCode\ProjectEuler_Multiples\bin\Debug\netcoreapp2.1\ProjectEuler_Multiples.runtimeconfig.json
+C:\Users\skuma\OneDrive\Workspace\Leetcode\LeetCode\ProjectEuler_Multiples\bin\Debug\netcoreapp2.1\ProjectEuler_Multiples.runtimeconfig.dev.json
+C:\Users\skuma\OneDrive\Workspace\Leetcode\LeetCode\ProjectEuler_Multiples\bin\Debug\netcoreapp2.1\ProjectEuler_Multiples.dll
+C:\Users\skuma\OneDrive\Workspace\Leetcode\LeetCode\ProjectEuler_Multiples\bin\Debug\netcoreapp2.1\ProjectEuler_Multiples.pdb
+C:\Users\skuma\OneDrive\Workspace\Leetcode\LeetCode\ProjectEuler_Multiples\obj\Debug\netcoreapp2.1\ProjectEuler_Multiples.csprojAssemblyReference.cache
+C:\Users\skuma\OneDrive\Workspace\Leetcode\LeetCode\ProjectEuler_Multiples\obj\Debug\netcoreapp2.1\ProjectEuler_Multiples.csproj.CoreCompileInputs.cache
+C:\Users\skuma\OneDrive\Workspace\Leetcode\LeetCode\ProjectEuler_Multiples\obj\Debug\netcoreapp2.1\ProjectEuler_Multiples.AssemblyInfoInputs.cache
+C:\Users\skuma\OneDrive\Workspace\Leetcode\LeetCode\ProjectEuler_Multiples\obj\Debug\netcoreapp2.1\ProjectEuler_Multiples.AssemblyInfo.cs
+C:\Users\skuma\OneDrive\Workspace\Leetcode\LeetCode\ProjectEuler_Multiples\obj\Debug\netcoreapp2.1\ProjectEuler_Multiples.dll
+C:\Users\skuma\OneDrive\Workspace\Leetcode\LeetCode\ProjectEuler_Multiples\obj\Debug\netcoreapp2.1\ProjectEuler_Multiples.pdb

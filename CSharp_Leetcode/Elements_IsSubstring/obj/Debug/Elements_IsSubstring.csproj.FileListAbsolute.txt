@@ -1,0 +1,12 @@
+C:\Users\SureshKumar\OneDrive\Workspace\Leetcode\LeetCode\Elements_IsSubstring\bin\Debug\Elements_IsSubstring.exe.config
+C:\Users\SureshKumar\OneDrive\Workspace\Leetcode\LeetCode\Elements_IsSubstring\bin\Debug\Elements_IsSubstring.exe
+C:\Users\SureshKumar\OneDrive\Workspace\Leetcode\LeetCode\Elements_IsSubstring\bin\Debug\Elements_IsSubstring.pdb
+C:\Users\SureshKumar\OneDrive\Workspace\Leetcode\LeetCode\Elements_IsSubstring\obj\Debug\Elements_IsSubstring.csproj.CoreCompileInputs.cache
+C:\Users\SureshKumar\OneDrive\Workspace\Leetcode\LeetCode\Elements_IsSubstring\obj\Debug\Elements_IsSubstring.exe
+C:\Users\SureshKumar\OneDrive\Workspace\Leetcode\LeetCode\Elements_IsSubstring\obj\Debug\Elements_IsSubstring.pdb
+C:\Users\skuma\OneDrive\Workspace\Leetcode\LeetCode\Elements_IsSubstring\bin\Debug\Elements_IsSubstring.exe.config
+C:\Users\skuma\OneDrive\Workspace\Leetcode\LeetCode\Elements_IsSubstring\bin\Debug\Elements_IsSubstring.exe
+C:\Users\skuma\OneDrive\Workspace\Leetcode\LeetCode\Elements_IsSubstring\bin\Debug\Elements_IsSubstring.pdb
+C:\Users\skuma\OneDrive\Workspace\Leetcode\LeetCode\Elements_IsSubstring\obj\Debug\Elements_IsSubstring.csproj.CoreCompileInputs.cache
+C:\Users\skuma\OneDrive\Workspace\Leetcode\LeetCode\Elements_IsSubstring\obj\Debug\Elements_IsSubstring.exe
+C:\Users\skuma\OneDrive\Workspace\Leetcode\LeetCode\Elements_IsSubstring\obj\Debug\Elements_IsSubstring.pdb

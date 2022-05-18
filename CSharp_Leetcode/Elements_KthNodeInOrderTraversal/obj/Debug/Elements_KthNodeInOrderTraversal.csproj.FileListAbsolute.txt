@@ -1,0 +1,14 @@
+C:\Users\SureshKumar\OneDrive\Workspace\Leetcode\LeetCode\Elements_KthNodeInOrderTraversal\bin\Debug\Elements_KthNodeInOrderTraversal.exe.config
+C:\Users\SureshKumar\OneDrive\Workspace\Leetcode\LeetCode\Elements_KthNodeInOrderTraversal\bin\Debug\Elements_KthNodeInOrderTraversal.exe
+C:\Users\SureshKumar\OneDrive\Workspace\Leetcode\LeetCode\Elements_KthNodeInOrderTraversal\bin\Debug\Elements_KthNodeInOrderTraversal.pdb
+C:\Users\SureshKumar\OneDrive\Workspace\Leetcode\LeetCode\Elements_KthNodeInOrderTraversal\obj\Debug\Elements_KthNodeInOrderTraversal.csproj.CoreCompileInputs.cache
+C:\Users\SureshKumar\OneDrive\Workspace\Leetcode\LeetCode\Elements_KthNodeInOrderTraversal\obj\Debug\Elements_KthNodeInOrderTraversal.exe
+C:\Users\SureshKumar\OneDrive\Workspace\Leetcode\LeetCode\Elements_KthNodeInOrderTraversal\obj\Debug\Elements_KthNodeInOrderTraversal.pdb
+C:\Users\SureshKumar\OneDrive\Workspace\Leetcode\LeetCode\Elements_KthNodeInOrderTraversal\obj\Debug\Elements_KthNodeInOrderTraversal.csprojAssemblyReference.cache
+C:\Users\skuma\OneDrive\Workspace\Leetcode\LeetCode\Elements_KthNodeInOrderTraversal\bin\Debug\Elements_KthNodeInOrderTraversal.exe.config
+C:\Users\skuma\OneDrive\Workspace\Leetcode\LeetCode\Elements_KthNodeInOrderTraversal\bin\Debug\Elements_KthNodeInOrderTraversal.exe
+C:\Users\skuma\OneDrive\Workspace\Leetcode\LeetCode\Elements_KthNodeInOrderTraversal\bin\Debug\Elements_KthNodeInOrderTraversal.pdb
+C:\Users\skuma\OneDrive\Workspace\Leetcode\LeetCode\Elements_KthNodeInOrderTraversal\obj\Debug\Elements_KthNodeInOrderTraversal.csprojAssemblyReference.cache
+C:\Users\skuma\OneDrive\Workspace\Leetcode\LeetCode\Elements_KthNodeInOrderTraversal\obj\Debug\Elements_KthNodeInOrderTraversal.csproj.CoreCompileInputs.cache
+C:\Users\skuma\OneDrive\Workspace\Leetcode\LeetCode\Elements_KthNodeInOrderTraversal\obj\Debug\Elements_KthNodeInOrderTraversal.exe
+C:\Users\skuma\OneDrive\Workspace\Leetcode\LeetCode\Elements_KthNodeInOrderTraversal\obj\Debug\Elements_KthNodeInOrderTraversal.pdb

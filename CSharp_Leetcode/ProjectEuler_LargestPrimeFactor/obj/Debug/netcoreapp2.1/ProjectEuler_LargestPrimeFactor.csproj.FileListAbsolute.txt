@@ -1,0 +1,11 @@
+C:\Users\skuma\OneDrive\Workspace\Leetcode\LeetCode\ProjectEuler_LargestPrimeFactor\bin\Debug\netcoreapp2.1\ProjectEuler_LargestPrimeFactor.deps.json
+C:\Users\skuma\OneDrive\Workspace\Leetcode\LeetCode\ProjectEuler_LargestPrimeFactor\bin\Debug\netcoreapp2.1\ProjectEuler_LargestPrimeFactor.runtimeconfig.json
+C:\Users\skuma\OneDrive\Workspace\Leetcode\LeetCode\ProjectEuler_LargestPrimeFactor\bin\Debug\netcoreapp2.1\ProjectEuler_LargestPrimeFactor.runtimeconfig.dev.json
+C:\Users\skuma\OneDrive\Workspace\Leetcode\LeetCode\ProjectEuler_LargestPrimeFactor\bin\Debug\netcoreapp2.1\ProjectEuler_LargestPrimeFactor.dll
+C:\Users\skuma\OneDrive\Workspace\Leetcode\LeetCode\ProjectEuler_LargestPrimeFactor\bin\Debug\netcoreapp2.1\ProjectEuler_LargestPrimeFactor.pdb
+C:\Users\skuma\OneDrive\Workspace\Leetcode\LeetCode\ProjectEuler_LargestPrimeFactor\obj\Debug\netcoreapp2.1\ProjectEuler_LargestPrimeFactor.csproj.CoreCompileInputs.cache
+C:\Users\skuma\OneDrive\Workspace\Leetcode\LeetCode\ProjectEuler_LargestPrimeFactor\obj\Debug\netcoreapp2.1\ProjectEuler_LargestPrimeFactor.AssemblyInfoInputs.cache
+C:\Users\skuma\OneDrive\Workspace\Leetcode\LeetCode\ProjectEuler_LargestPrimeFactor\obj\Debug\netcoreapp2.1\ProjectEuler_LargestPrimeFactor.AssemblyInfo.cs
+C:\Users\skuma\OneDrive\Workspace\Leetcode\LeetCode\ProjectEuler_LargestPrimeFactor\obj\Debug\netcoreapp2.1\ProjectEuler_LargestPrimeFactor.dll
+C:\Users\skuma\OneDrive\Workspace\Leetcode\LeetCode\ProjectEuler_LargestPrimeFactor\obj\Debug\netcoreapp2.1\ProjectEuler_LargestPrimeFactor.pdb
+C:\Users\skuma\OneDrive\Workspace\Leetcode\LeetCode\ProjectEuler_LargestPrimeFactor\obj\Debug\netcoreapp2.1\ProjectEuler_LargestPrimeFactor.csprojAssemblyReference.cache

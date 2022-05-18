@@ -1,0 +1,14 @@
+C:\Users\SureshKumar\OneDrive\Workspace\Leetcode\LeetCode\LeetCode_NextPermutation_31\bin\Debug\LeetCode_NextPermutation_31.exe.config
+C:\Users\SureshKumar\OneDrive\Workspace\Leetcode\LeetCode\LeetCode_NextPermutation_31\bin\Debug\LeetCode_NextPermutation_31.exe
+C:\Users\SureshKumar\OneDrive\Workspace\Leetcode\LeetCode\LeetCode_NextPermutation_31\bin\Debug\LeetCode_NextPermutation_31.pdb
+C:\Users\SureshKumar\OneDrive\Workspace\Leetcode\LeetCode\LeetCode_NextPermutation_31\obj\Debug\LeetCode_NextPermutation_31.csprojAssemblyReference.cache
+C:\Users\SureshKumar\OneDrive\Workspace\Leetcode\LeetCode\LeetCode_NextPermutation_31\obj\Debug\LeetCode_NextPermutation_31.csproj.CoreCompileInputs.cache
+C:\Users\SureshKumar\OneDrive\Workspace\Leetcode\LeetCode\LeetCode_NextPermutation_31\obj\Debug\LeetCode_NextPermutation_31.exe
+C:\Users\SureshKumar\OneDrive\Workspace\Leetcode\LeetCode\LeetCode_NextPermutation_31\obj\Debug\LeetCode_NextPermutation_31.pdb
+C:\Users\skuma\OneDrive\Workspace\Leetcode\LeetCode\LeetCode_NextPermutation_31\bin\Debug\LeetCode_NextPermutation_31.exe.config
+C:\Users\skuma\OneDrive\Workspace\Leetcode\LeetCode\LeetCode_NextPermutation_31\bin\Debug\LeetCode_NextPermutation_31.exe
+C:\Users\skuma\OneDrive\Workspace\Leetcode\LeetCode\LeetCode_NextPermutation_31\bin\Debug\LeetCode_NextPermutation_31.pdb
+C:\Users\skuma\OneDrive\Workspace\Leetcode\LeetCode\LeetCode_NextPermutation_31\obj\Debug\LeetCode_NextPermutation_31.csprojAssemblyReference.cache
+C:\Users\skuma\OneDrive\Workspace\Leetcode\LeetCode\LeetCode_NextPermutation_31\obj\Debug\LeetCode_NextPermutation_31.csproj.CoreCompileInputs.cache
+C:\Users\skuma\OneDrive\Workspace\Leetcode\LeetCode\LeetCode_NextPermutation_31\obj\Debug\LeetCode_NextPermutation_31.exe
+C:\Users\skuma\OneDrive\Workspace\Leetcode\LeetCode\LeetCode_NextPermutation_31\obj\Debug\LeetCode_NextPermutation_31.pdb

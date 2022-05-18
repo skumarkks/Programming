@@ -1,0 +1,16 @@
+using System;
+namespace Largestsubstring
+{
+    public partial class Program
+    {
+        public int[] FindAverageOfSubsets(int[] nums, int k)
+        {
+            if(nums == null || nums.Length == 0)
+                return null;
+            
+            int[] results = new int[nums.Length-k+1];
+
+            
+        }
+    }
+}

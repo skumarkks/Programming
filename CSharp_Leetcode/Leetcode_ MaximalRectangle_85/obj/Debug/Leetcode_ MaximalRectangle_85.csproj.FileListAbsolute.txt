@@ -1,0 +1,7 @@
+C:\Users\SureshKumar\OneDrive\Workspace\Leetcode\LeetCode\Leetcode_ MaximalRectangle_85\obj\Debug\Leetcode_ MaximalRectangle_85.csproj.CoreCompileInputs.cache
+C:\Users\SureshKumar\OneDrive\Workspace\Leetcode\LeetCode\Leetcode_ MaximalRectangle_85\obj\Debug\Leetcode_ MaximalRectangle_85.csprojAssemblyReference.cache
+C:\Users\SureshKumar\OneDrive\Workspace\Leetcode\LeetCode\Leetcode_ MaximalRectangle_85\bin\Debug\Leetcode_ MaximalRectangle_85.exe.config
+C:\Users\SureshKumar\OneDrive\Workspace\Leetcode\LeetCode\Leetcode_ MaximalRectangle_85\bin\Debug\Leetcode_ MaximalRectangle_85.exe
+C:\Users\SureshKumar\OneDrive\Workspace\Leetcode\LeetCode\Leetcode_ MaximalRectangle_85\bin\Debug\Leetcode_ MaximalRectangle_85.pdb
+C:\Users\SureshKumar\OneDrive\Workspace\Leetcode\LeetCode\Leetcode_ MaximalRectangle_85\obj\Debug\Leetcode_ MaximalRectangle_85.exe
+C:\Users\SureshKumar\OneDrive\Workspace\Leetcode\LeetCode\Leetcode_ MaximalRectangle_85\obj\Debug\Leetcode_ MaximalRectangle_85.pdb

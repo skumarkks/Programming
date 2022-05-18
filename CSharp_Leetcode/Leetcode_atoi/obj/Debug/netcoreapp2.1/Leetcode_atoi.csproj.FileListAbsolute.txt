@@ -1,0 +1,10 @@
+C:\Users\skuma\OneDrive\Workspace\Leetcode\LeetCode\Leetcode_atoi\bin\Debug\netcoreapp2.1\Leetcode_atoi.deps.json
+C:\Users\skuma\OneDrive\Workspace\Leetcode\LeetCode\Leetcode_atoi\bin\Debug\netcoreapp2.1\Leetcode_atoi.runtimeconfig.json
+C:\Users\skuma\OneDrive\Workspace\Leetcode\LeetCode\Leetcode_atoi\bin\Debug\netcoreapp2.1\Leetcode_atoi.runtimeconfig.dev.json
+C:\Users\skuma\OneDrive\Workspace\Leetcode\LeetCode\Leetcode_atoi\bin\Debug\netcoreapp2.1\Leetcode_atoi.dll
+C:\Users\skuma\OneDrive\Workspace\Leetcode\LeetCode\Leetcode_atoi\bin\Debug\netcoreapp2.1\Leetcode_atoi.pdb
+C:\Users\skuma\OneDrive\Workspace\Leetcode\LeetCode\Leetcode_atoi\obj\Debug\netcoreapp2.1\Leetcode_atoi.csproj.CoreCompileInputs.cache
+C:\Users\skuma\OneDrive\Workspace\Leetcode\LeetCode\Leetcode_atoi\obj\Debug\netcoreapp2.1\Leetcode_atoi.AssemblyInfoInputs.cache
+C:\Users\skuma\OneDrive\Workspace\Leetcode\LeetCode\Leetcode_atoi\obj\Debug\netcoreapp2.1\Leetcode_atoi.AssemblyInfo.cs
+C:\Users\skuma\OneDrive\Workspace\Leetcode\LeetCode\Leetcode_atoi\obj\Debug\netcoreapp2.1\Leetcode_atoi.dll
+C:\Users\skuma\OneDrive\Workspace\Leetcode\LeetCode\Leetcode_atoi\obj\Debug\netcoreapp2.1\Leetcode_atoi.pdb
