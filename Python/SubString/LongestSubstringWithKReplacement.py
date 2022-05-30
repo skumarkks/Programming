@@ -24,6 +24,6 @@ def longestSubstringWithKReplacement(str, k):
     return maxLength
 
 def main():
-    print("Maximum Length " + str(longestSubstringWithKReplacement("aabcci", 2)))
+    print("Maximum Length " + str(longestSubstringWithKReplacement("BAAAB", 2)))
 
 main()

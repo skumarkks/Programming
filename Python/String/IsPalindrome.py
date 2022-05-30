@@ -1,5 +1,4 @@
 class Solution:
-
     def isAlphanumeric(self, ch) -> bool:
         return (ord('A') <= ord(ch) <= ord('Z') or
                 ord('a') <= ord(ch) <= ord('z') or
